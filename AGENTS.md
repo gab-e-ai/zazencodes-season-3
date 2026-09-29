@@ -25,10 +25,10 @@
   - YouTube URL from `info.json`
   - optional short description from the folder README or local `summary.md`
 - Locate and process the video thumbnail:
-  - Search for the full-resolution thumbnail on the connected external volume (`/Volumes/T7 Shield/YT - Finals`) or in `~/Downloads`.
-  - If the thumbnail cannot be found on the volume or in `~/Downloads`, ask the user where it is located.
-  - Copy the thumbnail to `~/Downloads/` before modifying it.
-  - Resize the thumbnail to 480px width (480x270, 16:9 ratio) and save it to `assets/thumbnails/<folder-name>.png` (e.g. using `sips --resampleWidth 480`).
+  - Look for the matching video folder and its `thumbnail/` subfolder on `/Volumes/T7 Shield/01 . YT . Finals` first.
+  - If it is not there, look on `/Volumes/Expansion/ROOT/ZazenCodes YouTube/01 . YT . Finals`.
+  - Use the first matching thumbnail found. If neither volume has it, tell the user the thumbnail could not be found in the finalized video folders.
+  - Resize the full-resolution image directly to 480px width (480x270, 16:9 ratio) and save the result to `assets/thumbnails/<folder-name>.png` (e.g. `sips --resampleWidth 480 <source> --out <destination>`). Keep the original on the source volume unchanged.
   - Embed the clickable thumbnail in the "Watch" column: `[![<title>](assets/thumbnails/<folder-name>.png)](<youtube-url>)`.
 - If the match is unclear, run a targeted web or YouTube search to confirm before editing `README.md`.
 - Keep the video index in reverse chronological order based on the matching local video folders.
