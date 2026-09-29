@@ -14,8 +14,7 @@ You can also learn more at [zazencodes.com](https://zazencodes.com/) and get a w
 
 | Video | What you'll find | Watch | Source code |
 | --- | --- | --- | --- |
-| Build an Interactive ChatGPT & MCP App with Skybridge | Interactive dataset explorer MCP app built with Skybridge 2, React 19, and Tailwind CSS v4, featuring scatter plots, filterable data tables, and agent skills. | Video coming soon | [`src/skybridge-dataset-visualizer`](src/skybridge-dataset-visualizer) |
-| TypeSafe Jev: System 1 AI Decision Engine with Python | Ultra-fast 100ms non-autoregressive decision model demo: binary triage, categorical routing, and calibrated agent guardrails. | Video coming soon | [`src/jev-system-one-model-python-demo`](src/jev-system-one-model-python-demo) |
+| Grokking Neon: The Database for AI Agents | Notes app built on Neon's agent-ready backend: Postgres, Auth, Object Storage, Functions, and the AI Gateway. | Video coming soon | [`src/neon-notes-app`](src/neon-notes-app) |
 
 ## Video Index
 
@@ -23,6 +22,8 @@ These are the Season 3 source folders currently in this repo. The published vide
 
 | Video | What you'll find | Watch | Source code |
 | --- | --- | --- | --- |
+| [Understand Jev (the only video you need)](https://youtu.be/EAh1h1GYxDM) | Python demos of Jev's typed decision primitives for spam detection, ticket routing, urgency scoring, and autonomous triage. | [![Understand Jev (the only video you need)](assets/thumbnails/jev-system-one-model-python-demo.png)](https://youtu.be/EAh1h1GYxDM) | [`src/jev-system-one-model-python-demo`](src/jev-system-one-model-python-demo) |
+| [How to Build MCP Apps with UI (Skybridge + Alpic)](https://youtu.be/lZBm7tZgvRA) | Build an interactive MCP dataset explorer, test it in ChatGPT and Claude, then deploy it with Alpic. | [![How to Build MCP Apps with UI (Skybridge + Alpic)](assets/thumbnails/skybridge-dataset-visualizer.png)](https://youtu.be/lZBm7tZgvRA) | [`src/skybridge-dataset-visualizer`](src/skybridge-dataset-visualizer) |
 | [Build a Cyberpunk Coding Game with Kimi K3](https://youtu.be/PfXwEcq6fGA) | A self-contained Godot 4 cyberpunk first-person coding game: solve Python challenges at in-world terminals before the countdown ends. | [![Build a Cyberpunk Coding Game with Kimi K3](assets/thumbnails/cyberpunk-coding-game-kimi-k3.png)](https://youtu.be/PfXwEcq6fGA) | [`src/cyberpunk-coding-game-kimi-k3`](src/cyberpunk-coding-game-kimi-k3) |
 | [How to Use Hetzner's Free LLM Inference API with Python & OpenCode](https://youtu.be/OSuI3Iy68KQ) | Hands-on walkthrough of Hetzner's experimental inference platform with Qwen 3.6: basic OpenAI SDK requests, batch support ticket classification, 150k long-context needle in a haystack, multimodal vision, and agentic workflows with OpenCode. | [![How to Use Hetzner's Free LLM Inference API with Python & OpenCode](assets/thumbnails/hetzner-experiments-demo.png)](https://youtu.be/OSuI3Iy68KQ) | [`src/hetzner-experiments-demo`](src/hetzner-experiments-demo) |
 | [I Built an Agentic RPG with MiniMax + Pi](https://youtu.be/sli6ZbEO13k) | Browser RPG (Phaser + React) where a MiniMax coding agent fights GitHub issues as monsters. Each tool call becomes an attack animation; victory = a real PR merged. | [![I Built an Agentic RPG with MiniMax + Pi](assets/thumbnails/minimax-dev-rpg.png)](https://youtu.be/sli6ZbEO13k) | [`src/minimax-dev-rpg`](src/minimax-dev-rpg) |
