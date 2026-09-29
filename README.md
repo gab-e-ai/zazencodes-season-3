@@ -14,7 +14,7 @@ You can also learn more at [zazencodes.com](https://zazencodes.com/) and get a w
 
 | Video | What you'll find | Watch | Source code |
 | --- | --- | --- | --- |
-| Grokking Neon: The Database for AI Agents | Notes app built on Neon's agent-ready backend: Postgres, Auth, Object Storage, Functions, and the AI Gateway. | Video coming soon | [`src/neon-notes-app`](src/neon-notes-app) |
+| Neon: The Database for AI Agents (Getting started guide) | Notes app built on Neon's agent-ready backend: Postgres, Auth, Object Storage, Functions, and the AI Gateway. | Video coming soon | [`src/neon-notes-app`](src/neon-notes-app) |
 
 ## Video Index
 
