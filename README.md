@@ -14,7 +14,6 @@ You can also learn more at [zazencodes.com](https://zazencodes.com/) and get a w
 
 | Video | What you'll find | Watch | Source code |
 | --- | --- | --- | --- |
-| Neon: The Database for AI Agents (Getting started guide) | Notes app built on Neon's agent-ready backend: Postgres, Auth, Object Storage, Functions, and the AI Gateway. | Video coming soon | [`src/neon-notes-app`](src/neon-notes-app) |
 | Build and Deploy an Always-On AI Agent with Pi | Meal-planning agent built with Pi on Neon: Postgres, Auth, Object Storage, Functions, and the AI Gateway, plus a React frontend on Vercel. | Video coming soon | [`src/neon-meal-helper-agent`](src/neon-meal-helper-agent) |
 
 ## Video Index
@@ -23,6 +22,7 @@ These are the Season 3 source folders currently in this repo. The published vide
 
 | Video | What you'll find | Watch | Source code |
 | --- | --- | --- | --- |
+| [Build an AI Agent with Neon (One Backend for Everything)](https://youtu.be/ScRzowDz22A) | Notes app built on Neon's agent-ready backend: Postgres, Auth, Object Storage, Functions, and the AI Gateway. | [![Build an AI Agent with Neon (One Backend for Everything)](assets/thumbnails/neon-notes-app.png)](https://youtu.be/ScRzowDz22A) | [`src/neon-notes-app`](src/neon-notes-app) |
 | [Understand Jev (the only video you need)](https://youtu.be/EAh1h1GYxDM) | Python demos of Jev's typed decision primitives for spam detection, ticket routing, urgency scoring, and autonomous triage. | [![Understand Jev (the only video you need)](assets/thumbnails/jev-system-one-model-python-demo.png)](https://youtu.be/EAh1h1GYxDM) | [`src/jev-system-one-model-python-demo`](src/jev-system-one-model-python-demo) |
 | [How to Build MCP Apps with UI (Skybridge + Alpic)](https://youtu.be/lZBm7tZgvRA) | Build an interactive MCP dataset explorer, test it in ChatGPT and Claude, then deploy it with Alpic. | [![How to Build MCP Apps with UI (Skybridge + Alpic)](assets/thumbnails/skybridge-dataset-visualizer.png)](https://youtu.be/lZBm7tZgvRA) | [`src/skybridge-dataset-visualizer`](src/skybridge-dataset-visualizer) |
 | [Build a Cyberpunk Coding Game with Kimi K3](https://youtu.be/PfXwEcq6fGA) | A self-contained Godot 4 cyberpunk first-person coding game: solve Python challenges at in-world terminals before the countdown ends. | [![Build a Cyberpunk Coding Game with Kimi K3](assets/thumbnails/cyberpunk-coding-game-kimi-k3.png)](https://youtu.be/PfXwEcq6fGA) | [`src/cyberpunk-coding-game-kimi-k3`](src/cyberpunk-coding-game-kimi-k3) |
